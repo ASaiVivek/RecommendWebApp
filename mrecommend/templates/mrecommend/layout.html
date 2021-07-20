@@ -1,0 +1,61 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% block title %} Mind-Frame WEB APP {% endblock %}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="{% static 'mrecommend/styles.css' %}" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <!-- React CDN for States -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="background-color: grey;">
+        <h1 style="text-align: center; color: rgb(85, 83, 83); font-family: 'Suez One', serif; font-size: 40px;">Mind Frame</h1>
+        <h1 style="text-align: center; font-family: 'Suez One', serif; font-size: x-large">Music & Movie Recommendations</h1>
+        <div style="text-align: right;">
+            {% if user.is_authenticated %}
+                Signed in as <strong>{{ user.username }}</strong>.
+            {% else %}
+                Not signed in.
+            {% endif %}
+        </div>
+        </div>
+
+        <div style="background-color: #c0c0c0;">
+            <ul class="nav nav-pills">
+                
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'index' %}">Home</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'logout' %}">Log Out</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'login' %}">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'register' %}">Register</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+        <hr style="border: 1px dashed black; margin: 0px 0px 10px 0px;">
+        <div>
+        {% block body %}
+        {% endblock %}
+        </div>
+        <footer>
+        <p style="text-align: center;">Made with <span style="color: #e25555;">&hearts;</span> for ECM/SNIST</p>       
+        </footer>    
+    </body>
+</html>
+

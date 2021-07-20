@@ -1,0 +1,173 @@
+[
+    {
+        "title": "Rush Hour",
+        "genre": "party",
+        "poster": "https://www.joblo.com/assets/images/oldsite/posters/images/full/1998-poster-rush_hour-3_thumb.jpg",
+        "links": "https://www.youtube.com/watch?v=JMiFsFQcFLE",
+        "director": "Brett Ratner"
+    },
+    {
+        "title": "Forrest Gump",
+        "genre": "smooth",
+        "poster": "https://i.pinimg.com/originals/16/30/79/163079bbd395e5176f5906e3c15fab99.jpg",
+        "links": "https://www.youtube.com/watch?v=bLvqoHBptjg",
+        "director": "Robert Zemeckis"
+    },
+    {
+        "title": "Shutter Island",
+        "genre": "thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "links": "https://www.youtube.com/watch?v=5iaYLCiq5RM",
+        "director": "Martin Scorsese"
+    },
+    {
+        "title": "John Wick",
+        "genre": "action",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg",
+        "links": "https://www.youtube.com/watch?v=2AUmvWm5ZDQ",
+        "director": "Chad Stahelski"
+    },
+    {
+        "title": "Mission Impossible",
+        "genre": "action",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/e/e1/MissionImpossiblePoster.jpg",
+        "links": "https://www.youtube.com/watch?v=Ohws8y572KE",
+        "director": "Brian De Palma"
+    },
+    {
+        "title": "Men In Black",
+        "genre": "action",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/f/fb/Men_in_Black_Poster.jpg",
+        "links": "https://www.youtube.com/watch?v=HYUd7AOw_lk",
+        "director": "Barry Sonnenfeld"
+    },
+    {
+        "title": "Star Wars",
+        "genre": "action",
+        "poster": "https://images-na.ssl-images-amazon.com/images/I/A1wnJQFI82L._SY879_.jpg",
+        "links": "https://www.youtube.com/watch?v=vZ734NWnAHA",
+        "director": "George Lucas"
+    },
+    {
+        "title": "Aquaman",
+        "genre": "action",
+        "poster": "https://i1.wp.com/batman-news.com/wp-content/uploads/2018/10/Aquaman-Poster-2-HD.jpg",
+        "links": "https://www.youtube.com/watch?v=WDkg3h8PCVU",
+        "director": "James Wan"
+    },
+    {
+        "title": "Tenet",
+        "genre": "action",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/1/14/Tenet_movie_poster.jpg",
+        "links": "https://www.youtube.com/watch?v=L3pk_TBkihU",
+        "director": "Christopher Nolan"
+    },
+    {
+        "title": "Star Wars",
+        "genre": "thriller",
+        "poster": "https://i.pinimg.com/originals/18/c3/73/18c3738c652715f727d88282f7e4e44b.jpg",
+        "links": "https://www.youtube.com/watch?v=bD7bpG-zDJQ",
+        "director": "George Lucas"
+    },
+    {
+        "title": "Passengers",
+        "genre": "thriller",
+        "poster": "https://i.pinimg.com/originals/d3/77/23/d37723f15bcdbdeb0c3610ea5c946141.jpg",
+        "links": "https://www.youtube.com/watch?v=7BWWWQzTpNU",
+        "director": "Morten Tyldum"
+    },
+    {
+        "title": "San Andreas",
+        "genre": "thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzZhYmQ2NGMtZmRmYi00NzgzLTllNmUtNDQwZDAxMmE3NzI0XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+        "links": "https://www.youtube.com/watch?v=yftHosO0eUo",
+        "director": "Brad Peyton"
+    },
+    {
+        "title": "Godzilla vs Kong",
+        "genre": "thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmYzMzU4NjctNDI0Mi00MGExLWI3ZDQtYzQzYThmYzc2ZmNjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+        "links": "https://www.youtube.com/watch?v=odM92ap8_c0",
+        "director": "Adam Wingard"
+    },
+    {
+        "title": "Searching",
+        "genre": "thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjIwOTA3NDI3MF5BMl5BanBnXkFtZTgwNzIzMzA5NTM@._V1_.jpg",
+        "links": "https://www.youtube.com/watch?v=3Ro9ebQxEOY",
+        "director": "Aneesh Chaganty"
+    },
+    {
+        "title": "The Terminal",
+        "genre": "smooth",
+        "poster": "https://vistapointe.net/images/the-terminal-wallpaper-3.jpg",
+        "links": "https://www.youtube.com/watch?v=GZjC9dAvWuU",
+        "director": "Steven Spielberg"
+    },
+    {
+        "title": "She's Out of My League",
+        "genre": "smooth",
+        "poster": "http://www.insoundtrack.com/images/movie/she-s-out-of-my-league-2010.jpg",
+        "links": "https://www.youtube.com/watch?v=3F0XwZex1jQ",
+        "director": "Jim Field Smith"
+    },
+    {
+        "title": "Jerry Maguire",
+        "genre": "smooth",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNmFkOTMxNTgtMTAxNy00M2ZiLTliMzItMTU1NzM1NmQwZGZhXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg",
+        "links": "https://www.youtube.com/watch?v=7gZcQ6ddJF0",
+        "director": "Cameron Crowe"
+    },
+    {
+        "title": "The Blind Side",
+        "genre": "smooth",
+        "poster": "https://i.pinimg.com/originals/9a/1f/21/9a1f21b80bf668c6bd36433a867b638f.jpg",
+        "links": "https://www.youtube.com/watch?v=gvqj_Tk_kuM",
+        "director": "John Lee Hancock"
+    },
+    {
+        "title": "The Pursuit of Happyness",
+        "genre": "smooth",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/8/81/Poster-pursuithappyness.jpg",
+        "links": "https://www.youtube.com/watch?v=DMOBlEcRuw8",
+        "director": "Gabriele Muccino"
+    },
+    {
+        "title": "The Money Pitt",
+        "genre": "party",
+        "poster": "https://i.pinimg.com/originals/6e/5b/30/6e5b30388fad6b114a06877baf1d1813.jpg",
+        "links": "https://www.youtube.com/watch?v=TLLQquBdU8M",
+        "director": "Richard Benjamin"
+    },
+    {
+        "title": "Johnny English",
+        "genre": "party",
+        "poster": "https://i.ytimg.com/vi/lH4f5ifVMrg/movieposter_en.jpg",
+        "links": "https://www.youtube.com/watch?v=__c_SVavGF4",
+        "director": "Peter Howitt"
+    },
+    {
+        "title": "Bad Boys",
+        "genre": "party",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/d/d0/Bad_boys_two.jpg",
+        "links": "https://www.youtube.com/watch?v=AURhd5TCG6U",
+        "director": "Michael Bay"
+    },
+    {
+        "title": "Hangover",
+        "genre": "party",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/The_Hangover_Trilogy_DVD_cover.jpg/220px-The_Hangover_Trilogy_DVD_cover.jpg",
+        "links": "https://www.youtube.com/watch?v=tcdUhdOlz9M",
+        "director": "Todd Phillips"
+    },
+    {
+        "title": "Ghostbusters",
+        "genre": "party",
+        "poster": "https://i.pinimg.com/originals/78/d9/26/78d92623850f012612525ace38247913.jpg",
+        "links": "https://www.youtube.com/watch?v=w3ugHP-yZXw",
+        "director": "Jason Reitman"
+    }
+
+]
+
+

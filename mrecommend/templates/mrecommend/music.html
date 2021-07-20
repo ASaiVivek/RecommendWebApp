@@ -1,0 +1,26 @@
+{% extends "mrecommend/layout.html" %}
+
+{% block body %}
+
+<div>
+    <!-- <h2>Updating Soon...</h2> -->
+    <h2 style="text-align: center; font-family: 'Suez One', serif;">Music</h2>
+    {% for song in songs %}
+      {% if forloop.first %}<div class="row">{% endif %}
+        <div class="col-sm-4">
+              <div class="card mb-3" style="max-width: 350px;">
+              
+                <div class="card-body">
+                  <h5 class="card-title">{{song.title}}</h5>
+                  <iframe src={{song.link}} width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+
+              </div>
+        </div>
+      {% if forloop.counter|divisibleby:3 %}</div><div class="row">{% endif %}
+      {% if forloop.last %}</div>{% endif %}  
+    {% endfor %}    
+</div>
+
+
+{% endblock %}

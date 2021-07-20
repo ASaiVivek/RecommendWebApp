@@ -1,0 +1,105 @@
+{% extends "mrecommend/layout.html" %}
+
+{% load static %}
+
+{% block body %}
+
+<div>
+    {% if emotion %}
+    <h1 class="emotion_text" style="font-family: 'Suez One', serif;"> Looks like you are {{ emotion }} </h1>
+    {% else %}   
+    <h1 class="emotion_text" style="font-family: 'Suez One', serif;">Looks like you are ######</h1>
+    {% endif %}
+</div> <br>
+<div id="app"> </div>
+<br>
+<div style="text-align: center;">
+<a class="btn btn-primary" href="{% url 'imageprocess' %}">Capture!</a>
+<a class="btn btn-primary" href="{% url 'detectemotion' %}">Detect!</a>
+</div>
+<br>
+Emotion: {{ emotion }}
+<br>
+<hr style="border: 1px dashed black; margin: 0px 0px 10px 0px;">
+<br>
+<br>
+{% if state %}
+    <div style="display: flex; justify-content: space-evenly;">
+    <a class="btn btn-primary btn-lg" href="{% url 'music' %}">Music</a>
+    <a class="btn btn-primary btn-lg" href="{% url 'movies' %}">Movies</a>
+    </div>
+{% else %}
+    <div style="display: flex; justify-content: space-evenly;">
+        <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Music</a>
+        <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Movies</a>
+    </div>
+    <h5>Click Detect for Recommendations</h5>    
+{% endif %}
+<br>
+<br>
+<!-- <div>
+<h2>Updating Soon...</h2> 
+    <h2>Music</h2>
+    {% for song in songs %}
+        <div class="card mb-3" style="max-width: 540px;" id="card-listings">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">{{song.title}}</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+    {% endfor %}    
+</div> -->
+
+<!-- <script type="text/babel">
+
+    class App extends React.Component{
+        
+        constructor(props){
+            super(props);
+
+            this.state = {
+                emotion: "Happy"
+            };
+            
+            this.testemotion = this.testemotion.bind(this); //learn about this "bind" because this made setState() work
+            
+        }
+
+        testemotion(){
+        
+           var img = "../../media/mrecommend/opencv0.png"; //image file to variable
+
+        //    let result = fetch('http://localhost:7000/emotion_detection/detect/',{
+        //     method: 'POST',
+        //     body: {
+        //         "image": img
+        //     }
+        //    });
+           
+        //    $.getJSON(" url 'detectemotion '").then(({ results }) => this.setState({ emotion: results}));
+
+            // this.setState(state => ({
+            //     emotion: result
+            // }));
+
+            console.log(this.state.emotion);
+        }
+
+        render(){
+            return(
+            <div>
+                <button onClick={this.testemotion}>
+                    Test!
+                </button>
+                <div>Emotion: {this.state.emotion}</div>
+            </div>
+            );
+        }
+    } 
+    ReactDOM.render(<App />, document.querySelector('#app'));
+
+</script> -->
+
+{% endblock %}
