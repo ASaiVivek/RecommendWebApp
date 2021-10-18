@@ -1,5 +1,6 @@
 # RecommendWebApp
 Project Title - MINDFRAME: Music and Movie Recommendations to uplift the current mood using Deep Learning.
+[Published Paper in the IEEE Conference](https://ieeexplore.ieee.org/document/9526435)
 
 :warning: [IMPORTANT] - In order for this project to run, you need to run [this Server](https://github.com/vivekboss99/EmotionsAPI), which will help this Project's Server to communicate for processing the input images.
 
